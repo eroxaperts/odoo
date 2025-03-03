@@ -1,4 +1,4 @@
-name: Odoo
+name: Odooy
 
 on:
   push:
@@ -6,13 +6,14 @@ on:
       - main
 
 jobs:
-  build:
+  my-testing:
     run-on: ubuntu-latest
     steps:
-      - name: Print hello
-        run : echo "hello"
+      
+    - name: Print hello
+      run : echo "hello"
   my-deploy:
     run-on: ubuntu-latest
     steps:
-      - name: Print helloy
-        run : echo "hello my-deploy"
+    - name: Print hell
+      run : echo "hello my-deploy"
