@@ -1,0 +1,18 @@
+name: Odoo
+
+on:
+  push:
+    branches: 
+      - main
+
+jobs:
+  build:
+    run-on: ubuntu-latest
+    steps:
+      - name: Print hello
+        run: echo "hello"
+  my-deploy:
+    run-on: ubuntu-lates
+    steps:
+      - name: Print helloy
+        run: echo "hello my-deploy"
