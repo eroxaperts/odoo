@@ -10,9 +10,9 @@ jobs:
     run-on: ubuntu-latest
     steps:
       - name: Print hello
-        run: echo "hello"
+        run : echo "hello"
   my-deploy:
     run-on: ubuntu-lates
     steps:
       - name: Print helloy
-        run: echo "hello my-deploy"
+        run : echo "hello my-deploy"
