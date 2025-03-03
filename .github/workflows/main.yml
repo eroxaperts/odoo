@@ -4,7 +4,7 @@ on:
   workflow_dispatch
 
 env:
-  SERVER_HOST: 49492
+  SERVER_HOST: c82dbe96174b.vps.myjino.ru
   SERVER_USER: eroxa
   SERVER_PATH: /eroxa/github-test
 
