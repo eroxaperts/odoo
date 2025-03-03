@@ -7,13 +7,13 @@ on:
 
 jobs:
   my-testing:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       
     - name: Print hello
       run : echo "hello"
   my-deploy:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
     - name: Print hell
       run : echo "hello my-deploy"
